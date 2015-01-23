@@ -1,0 +1,38 @@
+{
+    "name": "mint-soft/hate-js",
+    "description": "JavaScript Backend Client Module for Zend Framework 2",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "jquery",
+        "javascript",
+        "client",
+        "proxy",
+        "dialog",
+        "html"
+    ],
+    "homepage": "https://github.com/sokool/hate-js",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zend-modulemanager": ">= 2.3",
+        "zendframework/zend-mvc": ">= 2.3",
+        "zendframework/zend-http": ">= 2.3",
+        "zendframework/zend-form": ">= 2.3",
+        "zendframework/zend-code": ">= 2.3",
+        "zendframework/zend-view": ">= 2.3",
+        "zendframework/zend-test": ">= 2.3",
+        "zendframework/zend-config": ">= 2.3",
+        "zendframework/zend-serializer": ">= 2.3",
+        "zendframework/zend-log": ">= 2.3",
+        "zendframework/zend-authentication": ">= 2.3",
+        "zendframework/zend-permissions-rbac": ">= 2.3",
+        "zendframework/zend-cache": ">= 2.3",
+        "doctrine/annotations": ">=1.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "MintSoft\\HateJS": "src/",
+            "HateJSTest": "test/"
+        }
+    }
+}
